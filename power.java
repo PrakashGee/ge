@@ -7,7 +7,7 @@ Scanner sc = new Scanner(System.in);
 int N = sc.nextInt();
 int temp=N;
 int k = sc.nextInt();
-for (int i=1; i<k; i++)
+for (int i=1; i<k-1; i++)
 {
 temp=temp*temp;
 }
