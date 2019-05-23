@@ -2,7 +2,6 @@ import java.util.Scanner;
 public class leap {
 public static void main(String[] args) {
 Scanner sc=new Scanner(System.in);
-System.out.print("Enter any year:");
 int year = sc.nextInt();
 boolean leap=false;
  if(year % 4 == 0)
