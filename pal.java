@@ -1,5 +1,5 @@
 import java.util.Scanner;
-class Pal{  
+public class Pal{  
 public static void main(String args[])
 { 
 int r,sum=0,temp; 
