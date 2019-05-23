@@ -9,11 +9,11 @@ if(n<0)
   }
  else if(n%2==0)
 {
- System.out.print("even");
+ System.out.print("Even");
  }
 else if(n%2!=0)
 {
- System.out.print("odd");
+ System.out.print("Odd");
 }
 }
 }
