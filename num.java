@@ -6,6 +6,6 @@ Scanner sc=new Scanner(System.in);
 int N=sc.nextInt();
 for(int i=1;i<=N;i++)
 {
-System.out.println("hello");
+System.out.println("Hello\n");
 }
 }}
