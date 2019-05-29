@@ -2,16 +2,16 @@ public class Numeric {
 
     public static void main(String[] args) {
 
-        String string = "12345.15";
-        boolean numeric = true;
+        String s = "123";
+        boolean n = true;
 
         try {
-            Double num = Double.parseDouble(string);
+            Double num = Double.parseDouble(s);
         } catch (NumberFormatException e) {
-            numeric = false;
+            n = false;
         }
 
-        if(numeric)
+        if(n)
             System.out.println("yes");
         else
             System.out.println("no");
