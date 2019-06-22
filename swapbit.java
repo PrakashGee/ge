@@ -8,6 +8,6 @@ int b=sc.nextInt();
 a=a^b;
 b=a^b;
 a=a^b;
-System.out.println(a+"\t"+b);
+System.out.println(b+"\t"+a);
 }
 }
