@@ -1,4 +1,4 @@
-#include<iostream.h>
+#include<iostream>
 int main()
 {
  string s1, s2, result;
@@ -6,6 +6,5 @@ int main()
  cin>>s2;
 result=s1+s2;
  cout<<result;
-
  return 0;
 }
