@@ -1,5 +1,5 @@
 #include <iostream>
-int main()
+void main()
 {
 string s1,s2;
 cin>>s1;
