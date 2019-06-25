@@ -1,7 +1,13 @@
 import java.util.Scanner;
-public class nonrept {
+public class s {
 public static void main(String[] args) {
-int arr[] = { 9, 4, 9, 6, 7, 4 }; 
+Scanner sc=new Scanner(System.in);
+int n1=sc.nextInt();
+int arr[]=new int[n1];
+for(int i=0;i<n1;i++)
+{
+arr[i]=sc.nextInt();
+}
 int n = arr.length; 
 for (int i = 0; i < n; i++) { 
 int j; 
